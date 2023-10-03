@@ -1,0 +1,113 @@
+*{margin:0;padding:0;}
+/* Estilos generales */
+html{background-color: black;}
+body{
+    width: 1200px; 
+    height:2000px; 
+    margin: auto;
+    color: #fff;
+    letter-spacing: .4px;
+    background-color: #0a090d;
+    font-family: Generalsans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+header{
+    width: 1000px; 
+    height:300px;
+    margin: auto; 
+    background-color: black; border: white 2px solid;
+}
+
+section#banner{
+    width: 700px; 
+    height:300px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+section#logo{
+    width: 292px; 
+    height:148px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+section#login{
+    width: 292px; 
+    height:148px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+nav{
+    width: 1000px; 
+    height: 85px;
+    margin: auto; 
+    background-color: black; border: white 2px solid;
+}
+section#tablanavegacion{
+    width: 995px; 
+    height: 85px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+main{
+    width: 1000px; 
+    height:650px;
+    margin: auto; 
+    background-color: black; border: white 2px solid;
+}
+section#izquierda{
+    width: 200px; 
+    height: 650px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+section#centrar{
+    width: 588px; 
+    height: 650px;
+    float:left;
+    background-color:black;border: white 2px solid;
+}
+section#derecha{
+    width: 200px; 
+    height: 650px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+footer{
+    width: 1000px; 
+    height:200px;
+    margin: auto; 
+    background-color: black; border: white 2px solid;
+}
+section#izquierdafooter{
+    width: 200px; 
+    height: 300px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+section#centrarfooter{
+    width: 588px; 
+    height: 300px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+section#derechafooter{
+    width: 200px; 
+    height: 300px;
+    float:left; 
+    background-color:black;border: white 2px solid;
+}
+
+.butt {
+    border: 2px outset #004ab8;
+    background-color: rgb(98, 0, 255);
+    height:500px;
+    width:500px;
+    cursor:pointer;
+}
+
+.butt:hover {
+   background-color: #004ab8;
+    color:black;
+}
